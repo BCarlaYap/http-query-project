@@ -1,0 +1,14 @@
+[workspace]
+
+members = [
+#"hyper",
+"http-query",
+"fast-socks5"
+#"reqwest",
+#"http",
+#"curl-rust",
+#"curl-rust/systest",
+#
+#"curl-rust/curl-sys"
+]
+

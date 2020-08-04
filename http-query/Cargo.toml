@@ -1,0 +1,29 @@
+[package]
+name = "http-query"
+version = "0.1.0"
+authors = ["BCarlaYap <bcarlayap@ymail.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+
+ipaddress = "0.1.2"
+
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+
+bytes = { version = "0.4" }
+futures = {version = "0.3", features = ["compat"]}
+curl = {version ="0.4.30", features=["http2"]}
+
+
+async-std = { version = "1.4", features = ["default"] }
+anyhow = "1.0"
+thiserror = "1.0"
+env_logger = "0.7"
+structopt = "0.3"
+#fast-socks5 = "0.3.1"
+fast-socks5 = {path = "../fast-socks5"}
+
+#shadowsocks-rust = "1.8.13"
+#tokio          = { version = "0.2", features = [ "rt-core", "time" ] }
